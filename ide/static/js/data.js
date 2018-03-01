@@ -59,7 +59,7 @@ export default {
       scale: {
         name: 'Scale',
         value: 1.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       mirror: {
@@ -156,7 +156,7 @@ export default {
       scale: {
         name: 'Scale',
         value: 1.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       mirror: {
@@ -336,19 +336,19 @@ export default {
       fg_threshold: {
         name: 'Foreground Threshold',
         value: 0.5,
-        type: 'float',
+        type: 'number',
         required: false
       },
       bg_threshold: {
         name: 'Background Threshold',
         value: 0.5,
-        type: 'float',
+        type: 'number',
         required: false
       },
       fg_fraction: {
         name: 'Foreground Fraction',
         value: 0.25,
-        type: 'float',
+        type: 'number',
         required: false
       },
       context_pad: {
@@ -379,7 +379,7 @@ export default {
       scale: {
         name: 'Scale',
         value: 1.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       mirror: {
@@ -1939,7 +1939,7 @@ export default {
       rate: {
         name: 'Dropout Ratio',
         value: 0.5,
-        type: 'float',
+        type: 'number',
         required: false
       },
       seed: {
@@ -2078,19 +2078,19 @@ export default {
       alpha: {
         name: 'Alpha',
         value: 1.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       beta: {
         name: 'Beta',
         value: 0.75,
-        type: 'float',
+        type: 'number',
         required: false
       },
       k: {
         name: 'K',
         value: 1.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       norm_region: {
@@ -2145,7 +2145,7 @@ export default {
       eps: {
         name: 'Epsilon',
         value: 1e-9,
-        type: 'float',
+        type: 'number',
         required: false
       },
       caffe: {
@@ -2187,13 +2187,13 @@ export default {
       moving_average_fraction: { // Maps to: momentum(Keras)
         name: 'Moving Avg. Fraction',
         value: 0.999,
-        type: 'float',
+        type: 'number',
         required: false
       },
       eps: {
         name: 'Epsilon',
         value: 1e-5,
-        type: 'float',
+        type: 'number',
         required: false
       },
       moving_mean_initializer: { // Only Keras
@@ -2416,7 +2416,7 @@ export default {
       alpha: {
         name: 'Alpha',
         value: 1,
-        type: 'float',
+        type: 'number',
         required: false
       },
       caffe: {
@@ -2452,7 +2452,7 @@ export default {
       theta: {
         name: 'Theta',
         value: 1,
-        type: 'float',
+        type: 'number',
         required: false
       },
       caffe: {
@@ -2698,19 +2698,19 @@ export default {
       power: {
         name: 'Power',
         value: 1.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       scale: {
         name: 'Scale',
         value: 1.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       shift: {
         name: 'Shift',
         value: 0.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       caffe: {
@@ -2746,19 +2746,19 @@ export default {
       base: {
         name: 'Base',
         value: -1.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       scale: {
         name: 'Scale',
         value: 1.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       shift: {
         name: 'Shift',
         value: 0.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       caffe: {
@@ -2794,19 +2794,19 @@ export default {
       base: {
         name: 'Base',
         value: -1.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       scale: {
         name: 'Scale',
         value: 1.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       shift: {
         name: 'Shift',
         value: 0.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       caffe: {
@@ -2872,7 +2872,7 @@ export default {
       threshold: {
         name: 'threshold',
         value: 0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       caffe: {
@@ -3336,7 +3336,7 @@ export default {
       coeff: {
         name: 'Coefficient',
         value: 1.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       caffe: {
@@ -3519,13 +3519,13 @@ export default {
       l1: {
         name: 'L1',
         value: 0.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       l2: {
         name: 'L2',
         value: 0.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       caffe: {
@@ -3555,7 +3555,7 @@ export default {
       mask_value: {
         name: 'Mask value',
         value: 0.0,
-        type: 'float',
+        type: 'number',
         required: true
       },
       caffe: {
@@ -3803,7 +3803,7 @@ export default {
       margin: {
         name: 'Margin',
         value: 1.0,
-        type: 'float',
+        type: 'number',
         required: false
       },
       caffe: {
