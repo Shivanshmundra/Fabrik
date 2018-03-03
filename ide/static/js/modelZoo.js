@@ -32,7 +32,7 @@ class ModelZoo extends React.Component {
               <br/>
               <ModelElement importNet={this.props.importNet} framework="keras" id="imdb_cnn_lstm">IMDB CNN LSTM</ModelElement>
               <br/>
-              <ModelElement importNet={this.props.importNet} framework="caffe" id="simpleNet">SimpleNet 101</ModelElement>       
+              <ModelElement importNet={this.props.importNet} framework="caffe" id="simpleNet">SimpleNet</ModelElement>       
           </div>
           <div className="zoo-modal-model">
             <h3 className="zoo-modal-text">Detection</h3>

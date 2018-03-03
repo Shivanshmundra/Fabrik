@@ -1,4 +1,4 @@
-name: "SIMPNET_NoDRP"
+name: "SimpleNet"
 layer { 
   name: "data"
   type: "Input"
